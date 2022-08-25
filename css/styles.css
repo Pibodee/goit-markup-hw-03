@@ -1,0 +1,234 @@
+:root {
+  /*fonts*/
+  --main-font: "Roboto", "Sans-Serif";
+  --secondary-font: "Raleway", "Sans-Serif";
+
+  /*colors:*/
+  /*background*/
+  --main-bg-cl: #f5f5f5;
+  --secondary-bg-cl: #f5f4fa;
+  --additional-bg-cl: #ffffff;
+  --hero-bg-cl: #2f303a;
+
+  /*text*/
+  --main-txt-cl: #212121;
+  --secondary-txt-cl: #757575;
+  --additional-txt-cl: #ffffff;
+  --active-link-txt: #2196f3;
+  --main-link-cl: #000000;
+  --address-link-cl: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-cl);
+  background-color: var(--additional-bg-cl);
+}
+
+.header {
+  font-weight: 500;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: calc(31 / 26);
+  color: var(--active-link-txt);
+  text-decoration: none;
+}
+
+.header-stud {
+  color: var(--main-link-cl);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: calc(16.41 / 14);
+  text-decoration: none;
+  color: currentColor;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-link-txt);
+}
+.current {
+  color: var(--active-link-txt);
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contact-link {
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: calc(16.41 / 14);
+  color: var(--secondary-txt-cl);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--active-link-txt);
+}
+
+.hero {
+  background-color: var(--hero-bg-cl);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--additional-txt-cl);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  color: var(--additional-txt-cl);
+  background-color: var(--active-link-txt);
+  cursor: pointer;
+}
+
+.section{
+  background-color: var(--main-bg-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.section-title {
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(16 / 14);
+}
+
+.text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
+
+.team {
+  background-color: var(--secondary-bg-cl);
+}
+
+.card {
+  background-color: var(--additional-bg-cl);
+}
+
+.subject{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+
+
+.desc{
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: var(--secondary-txt-cl);
+}
+
+.footer {
+  background-color: var(--hero-bg-cl);
+}
+.footer-stud {
+  color: var(--additional-txt-cl);
+}
+/*added line-height*/
+
+.link {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+  color: var(--additional-txt-cl);
+}
+.link:hover,
+.link:focus {
+  color: var(--active-link-txt);
+}
+
+.address-link {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  color: var(--address-link-cl);
+  text-decoration: none;
+}
+/*fin*/
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--active-link-txt);
+}
+
+.portfolio {
+  background-color: var(--main-bg-cl);
+}
+
+.filter {
+  list-style: none;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  background-color: var(--secondary-bg-cl);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--additional-txt-cl);
+  background-color: var(--active-link-txt);
+  cursor: pointer;
+}
+
+.gallery {
+  list-style: none;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.card-text{
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: var(--secondary-txt-cl);
+}
+/*Checked all files with validator*/
+/*Changed numbers for integer*/
+/* Changed body properties */
+/* Added new classes for modifying text, changed font-sizes*/
