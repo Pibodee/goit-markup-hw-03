@@ -17,6 +17,8 @@
   --active-link-txt: #2196f3;
   --main-link-cl: #000000;
   --address-link-cl: rgba(255, 255, 255, 0.6);
+  --main-bt-act: #188CE8;
+
 
   --border-cl: #ececec;
 
@@ -135,6 +137,7 @@ body {
 .contact-link {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: inline-block;
 
   letter-spacing: 0.02em;
   font-size: 14px;
@@ -240,6 +243,11 @@ body {
   color: var(--additional-txt-cl);
   background-color: var(--active-link-txt);
   cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+  background-color: var(--main-bt-act);
 }
 
 /* sections */
@@ -427,8 +435,7 @@ img {
 /* cards */
 .gallery-card {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-  padding-bottom: 20px;
-
+  
   background-color: var(--additional-bg-cl);
 }
 
